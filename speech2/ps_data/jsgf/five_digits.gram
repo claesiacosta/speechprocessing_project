@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+ * Decoder for five digits.
+ */
+
+grammar five_digit;
+
+public <digits5> = <digit> <digit> <digit> <digit> <digit>;
+
+<digit> = zero | oh | one | two | three | four | five | six | seven | eight | nine;

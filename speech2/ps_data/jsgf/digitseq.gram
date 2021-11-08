@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * Decoder for a sequence of digits
+ */
+
+grammar goforward;
+
+public <move> = <dig3>;
+
+public <move2> = <dig3> <digit> <digit>;
+
+<dig3> = <digit> <digit> <digit>;
+
+<direction> = forward | backward;
+
+<digit> = zero | oh | one | two | three | four | five | six | seven | eight | nine;

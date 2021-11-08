@@ -1,0 +1,18 @@
+#JSGF V1.0;
+
+/**
+ * Decoder for a sequence of digits
+ */
+
+grammar digits;
+
+public <loop> = <digit> <loop1>;
+
+public <1digit> = <digit>;
+
+public <3digits> = <digit> <digit> <digit>;
+
+public <5digits> = <digit> <digit> <digit> <digit> <digit>;
+
+
+<digit> = zero | oh | one | two | three | four | five | six | seven | eight | nine;
