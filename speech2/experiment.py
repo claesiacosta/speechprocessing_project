@@ -24,7 +24,14 @@ def compile_ref(folder):
             labels += f.read()
     total_refs = folder + "/" + "xxx.ref"
     with open(total_refs, encoding="utf8", mode="w") as f:
-       f.write(labels)
+
+        f.write(labels)
+
+#join all of the predictions into one file
+def compile_pred(folder, rule, preds):
+    full_path = folder + "/" + rule + ".pred"
+    with open(full_path, encoding="utf8", mode="w") as f:
+        f.write("\n".join(preds))
 
 #read every file in the folder and create a hypothesis
 def decode_folder(my_decoder, folder):
@@ -36,13 +43,28 @@ def decode_folder(my_decoder, folder):
         decoded.append(pred)
     return decoded
 
-def compile_pred(folder, rule, preds):
-    full_path = folder + "/" + rule + ".pred"
-    with open(full_path, encoding="utf8", mode="w") as f:
-        f.write("\n".join(preds))
-        
-folder = r"td_corpus_digits/SNR05dB/man/seq5digits_100_files"
-#compile_ref(folder)
-my_decoder = get_rule_decoder()
-decoded = decode_folder(my_decoder, folder)
-compile_pred(folder, "5digits", decoded)
+
+
+#generate paths - only 35 db has multiple voices so the general case assumes we are accessing a male voice
+def get_folders(corpus, SNR, seqs):
+    folders = []
+    for db in SNR:
+        for seq in seqs:
+            folder = os.path.join(corpus, db, "man", seq)
+            folders.append(folder)
+    return folders
+
+#
+def main(rule):
+    SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
+    seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
+    folders = get_folders("td_corpus_digits", SNR, seqs)
+    my_decoder = get_rule_decoder(rule=rule)
+    for folder in folders:
+        compile_ref(folder)
+        decoded = decode_folder(my_decoder, folder)
+        compile_pred(folder, rule, decoded)
+
+if __name__ == "__main__":
+    main("5digits")
+    main("3digits")
