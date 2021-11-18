@@ -46,19 +46,17 @@ def decode_folder(my_decoder, folder):
 
 
 #generate paths - only 35 db has multiple voices so the general case assumes we are accessing a male voice
-def get_folders(corpus, SNR, seqs):
+def get_folders(corpus, SNR,seqs, speakers= ["man"]):
     folders = []
     for db in SNR:
-        for seq in seqs:
-            folder = os.path.join(corpus, db, "man", seq)
+        for speaker in speakers:
+            for seq in seqs:
+                folder = os.path.join(corpus, db, speaker, seq)
             folders.append(folder)
     return folders
 
 #
-def main(rule):
-    SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
-    seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
-    folders = get_folders("td_corpus_digits", SNR, seqs)
+def decode_folders(rule, folders):
     my_decoder = None
     if rule =="ngram":
         my_decoder = get_ngram_decoder()
@@ -66,11 +64,24 @@ def main(rule):
         my_decoder = get_rule_decoder(rule=rule)
     for folder in folders:
         compile_ref(folder)
-        decoded = decode_folder(my_decoder, folder)
-        compile_pred(folder, rule, decoded)
+        decoded = decode_folder(my_decoder, folder) 
+    compile_pred(folder, rule, decoded)
+
+def main(rule):
+    SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
+    seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
+    folders = get_folders("td_corpus_digits", SNR, seqs)
+    decode_folders(rule, folders)
+
+def test_speaker(rule):
+    SNR = ["SNR35db"]
+    seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
+    speakers = ["man", "woman", "boy", "girl"]
+    folders = get_folders("td_corpus_digits", SNR, seqs, speakers=speakers)
+    decode_folders(rule, folders)
 
 if __name__ == "__main__":
-    #main("5digits")
-    #main("3digits")
-    #main("ngram")
-    main("loop")
+    rules = ["5digits", "3digits", "ngram", "loop"]
+    for rule in rules:
+        #main(rule)
+        test_speaker(rule)

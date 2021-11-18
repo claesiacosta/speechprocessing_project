@@ -6,7 +6,8 @@
 
 grammar digits;
 
-public <loop> = <digit> <loop1>;
+public <loop> = <digit> <loop>;
+
 
 public <1digit> = <digit>;
 
