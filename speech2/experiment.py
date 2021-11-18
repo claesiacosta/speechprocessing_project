@@ -6,7 +6,7 @@ Created on Sun Nov  7 11:43:11 2021
 """
 
 import os
-from decoding import get_rule_decoder, decode
+from decoding import get_rule_decoder, get_ngram_decoder, decode
 #take all of the individual references and put them into one file
 def get_files(folder, end):
     all_f = os.listdir(folder)
@@ -59,12 +59,18 @@ def main(rule):
     SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
     seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
     folders = get_folders("td_corpus_digits", SNR, seqs)
-    my_decoder = get_rule_decoder(rule=rule)
+    my_decoder = None
+    if rule =="ngram":
+        my_decoder = get_ngram_decoder()
+    else:
+        my_decoder = get_rule_decoder(rule=rule)
     for folder in folders:
         compile_ref(folder)
         decoded = decode_folder(my_decoder, folder)
         compile_pred(folder, rule, decoded)
 
 if __name__ == "__main__":
-    main("5digits")
-    main("3digits")
+    #main("5digits")
+    #main("3digits")
+    #main("ngram")
+    main("loop")
