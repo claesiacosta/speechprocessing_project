@@ -18,18 +18,18 @@ def compile_ref(folder):
     refs = get_files(folder, ".ref")
     labels = ""
     for ref in refs:
-        full_ref = folder + "/" + ref
+        full_ref = os.path.join(folder, ref)
         with open(full_ref, encoding="utf8") as f:
             #number = ref[-7:-4]
             labels += f.read()
-    total_refs = folder + "/" + "xxx.ref"
+    total_refs = os.path.join(folder, "xxx.ref")
     with open(total_refs, encoding="utf8", mode="w") as f:
 
         f.write(labels)
 
 #join all of the predictions into one file
 def compile_pred(folder, rule, preds):
-    full_path = folder + "/" + rule + ".pred"
+    full_path = os.path.join(folder, rule + ".pred")
     with open(full_path, encoding="utf8", mode="w") as f:
         f.write("\n".join(preds))
 
@@ -37,8 +37,8 @@ def compile_pred(folder, rule, preds):
 def decode_folder(my_decoder, folder):
     raw = get_files(folder, ".raw")
     decoded = []
-    for file in raw:
-        full_path = folder + "/" + file
+    for f in raw:
+        full_path = os.path.join(folder,f)
         pred = decode(my_decoder, full_path)
         decoded.append(pred)
     return decoded
@@ -46,7 +46,7 @@ def decode_folder(my_decoder, folder):
 
 
 #generate paths - only 35 db has multiple voices so the general case assumes we are accessing a male voice
-def get_folders(corpus, SNR,seqs, speakers= ["man"]):
+def get_folders(corpus, SNR,speakers, seqs):
     folders = []
     for db in SNR:
         for speaker in speakers:
@@ -70,14 +70,15 @@ def decode_folders(rule, folders):
 def main(rule):
     SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
     seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
-    folders = get_folders("td_corpus_digits", SNR, seqs)
+    speakers = ["man"]
+    folders = get_folders("td_corpus_digits", SNR, speakers, seqs)
     decode_folders(rule, folders)
 
 def test_speaker(rule):
     SNR = ["SNR35db"]
     seqs =["seq1digit_200_files", "seq3digits_100_files", "seq5digits_100_files"]
     speakers = ["man", "woman", "boy", "girl"]
-    folders = get_folders("td_corpus_digits", SNR, seqs, speakers=speakers)
+    folders = get_folders("td_corpus_digits", SNR, speakers, seqs)
     decode_folders(rule, folders)
 
 if __name__ == "__main__":
