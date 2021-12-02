@@ -28,8 +28,8 @@ HYP: nine
 SENTENCE 6
 Correct          = 100.0%    1   (     1)
 Errors           =   0.0%    0   (     1)
-REF: [31mONE [0m
-HYP: [31mWANT[0m
+REF: [31mONE[0m
+HYP: [31mWON[0m
 SENTENCE 7
 Correct          =   0.0%    0   (     1)
 Errors           = 100.0%    1   (     1)

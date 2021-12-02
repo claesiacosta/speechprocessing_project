@@ -1,0 +1,1004 @@
+REF: five
+HYP: five
+SENTENCE 1
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 2
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: oh
+HYP: oh
+SENTENCE 3
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 4
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m six [31m**[0m
+HYP: [31mEIGHT[0m six [31mOH[0m
+SENTENCE 5
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: four
+HYP: four
+SENTENCE 6
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m oh
+HYP: [31mOH[0m oh
+SENTENCE 7
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: nine
+HYP: nine
+SENTENCE 8
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 9
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: six
+HYP: six
+SENTENCE 10
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 11
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 12
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 13
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 14
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 15
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three [31m*****[0m
+HYP: three [31mEIGHT[0m
+SENTENCE 16
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: zero
+HYP: zero
+SENTENCE 17
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m oh
+HYP: [31mEIGHT[0m oh
+SENTENCE 18
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: oh
+HYP: oh
+SENTENCE 19
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m five
+HYP: [31mEIGHT[0m five
+SENTENCE 20
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: six
+HYP: six
+SENTENCE 21
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 22
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: six
+HYP: six
+SENTENCE 23
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m two
+HYP: [31mOH[0m two
+SENTENCE 24
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m**[0m two [31m*****[0m
+HYP: [31mOH[0m two [31mEIGHT[0m
+SENTENCE 25
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: two
+HYP: two
+SENTENCE 26
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m eight
+HYP: [31mEIGHT[0m eight
+SENTENCE 27
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 28
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m oh
+HYP: [31mOH[0m oh
+SENTENCE 29
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: oh
+HYP: oh
+SENTENCE 30
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 31
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 32
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 33
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 34
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: oh
+HYP: oh
+SENTENCE 35
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31mFOUR[0m
+HYP: [31mFIVE[0m
+SENTENCE 36
+Correct          =   0.0%    0   (     1)
+Errors           = 100.0%    1   (     1)
+REF: seven
+HYP: seven
+SENTENCE 37
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 38
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 39
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m****[0m [31mFOUR [0m
+HYP: [31mFIVE[0m [31mEIGHT[0m
+SENTENCE 40
+Correct          =   0.0%    0   (     1)
+Errors           = 200.0%    2   (     1)
+REF: oh
+HYP: oh
+SENTENCE 41
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 42
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31mFIVE[0m
+HYP: [31mNINE[0m
+SENTENCE 43
+Correct          =   0.0%    0   (     1)
+Errors           = 100.0%    1   (     1)
+REF: one
+HYP: one
+SENTENCE 44
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 45
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 46
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 47
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 48
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m two [31m**[0m
+HYP: [31mOH[0m two [31mOH[0m
+SENTENCE 49
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 50
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m**[0m six [31m**[0m
+HYP: [31mOH[0m six [31mOH[0m
+SENTENCE 51
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: seven
+HYP: seven
+SENTENCE 52
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: five
+HYP: five
+SENTENCE 53
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m [31m*****[0m seven
+HYP: [31mOH[0m [31mEIGHT[0m seven
+SENTENCE 54
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: seven
+HYP: seven
+SENTENCE 55
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 56
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 57
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 58
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m two [31m*****[0m
+HYP: [31mOH[0m two [31mEIGHT[0m
+SENTENCE 59
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: four
+HYP: four
+SENTENCE 60
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 61
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 62
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 63
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 64
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m six
+HYP: [31mEIGHT[0m six
+SENTENCE 65
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: eight
+HYP: eight
+SENTENCE 66
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 67
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four [31m*****[0m
+HYP: four [31mEIGHT[0m
+SENTENCE 68
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: two
+HYP: two
+SENTENCE 69
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 70
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 71
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 72
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m**[0m five
+HYP: [31mOH[0m five
+SENTENCE 73
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m*****[0m five
+HYP: [31mEIGHT[0m five
+SENTENCE 74
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 75
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 76
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: six
+HYP: six
+SENTENCE 77
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 78
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 79
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 80
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 81
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: six
+HYP: six
+SENTENCE 82
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: oh
+HYP: oh
+SENTENCE 83
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 84
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m***[0m six
+HYP: [31mONE[0m six
+SENTENCE 85
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: three
+HYP: three
+SENTENCE 86
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 87
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 88
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m five
+HYP: [31mEIGHT[0m five
+SENTENCE 89
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m**[0m [31m*****[0m six [31m**[0m [31m***[0m
+HYP: [31mOH[0m [31mEIGHT[0m six [31mOH[0m [31mTWO[0m
+SENTENCE 90
+Correct          = 100.0%    1   (     1)
+Errors           = 400.0%    4   (     1)
+REF: [31m*****[0m oh
+HYP: [31mEIGHT[0m oh
+SENTENCE 91
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: two
+HYP: two
+SENTENCE 92
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 93
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 94
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 95
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 96
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: oh [31m*****[0m [31m*****[0m
+HYP: oh [31mEIGHT[0m [31mEIGHT[0m
+SENTENCE 97
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: [31m*****[0m [31mSIX  [0m
+HYP: [31mTHREE[0m [31mEIGHT[0m
+SENTENCE 98
+Correct          =   0.0%    0   (     1)
+Errors           = 200.0%    2   (     1)
+REF: [31m***[0m zero
+HYP: [31mTWO[0m zero
+SENTENCE 99
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 100
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 101
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 102
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 103
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 104
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero [31m**[0m
+HYP: zero [31mOH[0m
+SENTENCE 105
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 106
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m two
+HYP: [31mOH[0m two
+SENTENCE 107
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: oh [31m*****[0m
+HYP: oh [31mEIGHT[0m
+SENTENCE 108
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m*****[0m eight
+HYP: [31mEIGHT[0m eight
+SENTENCE 109
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: three
+HYP: three
+SENTENCE 110
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 111
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m seven
+HYP: [31mEIGHT[0m seven
+SENTENCE 112
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 113
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m oh
+HYP: [31mEIGHT[0m oh
+SENTENCE 114
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: eight
+HYP: eight
+SENTENCE 115
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 116
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 117
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 118
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 119
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m seven
+HYP: [31mOH[0m seven
+SENTENCE 120
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m**[0m [31m***[0m six
+HYP: [31mOH[0m [31mTWO[0m six
+SENTENCE 121
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: four
+HYP: four
+SENTENCE 122
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 123
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 124
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 125
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 126
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 127
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three [31m*****[0m
+HYP: three [31mEIGHT[0m
+SENTENCE 128
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: six
+HYP: six
+SENTENCE 129
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 130
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 131
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 132
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 133
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 134
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m****[0m [31mTHREE[0m
+HYP: [31mFOUR[0m [31mEIGHT[0m
+SENTENCE 135
+Correct          =   0.0%    0   (     1)
+Errors           = 200.0%    2   (     1)
+REF: [31m*****[0m [31m**[0m oh
+HYP: [31mEIGHT[0m [31mOH[0m oh
+SENTENCE 136
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: nine
+HYP: nine
+SENTENCE 137
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m five
+HYP: [31mEIGHT[0m five
+SENTENCE 138
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: seven
+HYP: seven
+SENTENCE 139
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 140
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: six
+HYP: six
+SENTENCE 141
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 142
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 143
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 144
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 145
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 146
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m***[0m zero
+HYP: [31mTWO[0m zero
+SENTENCE 147
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 148
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: nine
+HYP: nine
+SENTENCE 149
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m six [31m***[0m
+HYP: [31mEIGHT[0m six [31mTWO[0m
+SENTENCE 150
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: eight
+HYP: eight
+SENTENCE 151
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: five
+HYP: five
+SENTENCE 152
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 153
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m [31m**[0m oh
+HYP: [31mEIGHT[0m [31mOH[0m oh
+SENTENCE 154
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: three
+HYP: three
+SENTENCE 155
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 156
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 157
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 158
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 159
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 160
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m five [31m***[0m
+HYP: [31mEIGHT[0m five [31mTWO[0m
+SENTENCE 161
+Correct          = 100.0%    1   (     1)
+Errors           = 200.0%    2   (     1)
+REF: six
+HYP: six
+SENTENCE 162
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 163
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: five
+HYP: five
+SENTENCE 164
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31mOH  [0m
+HYP: [31mNINE[0m
+SENTENCE 165
+Correct          =   0.0%    0   (     1)
+Errors           = 100.0%    1   (     1)
+REF: five
+HYP: five
+SENTENCE 166
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 167
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 168
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 169
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: zero
+HYP: zero
+SENTENCE 170
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 171
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 172
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 173
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 174
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 175
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: one
+HYP: one
+SENTENCE 176
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 177
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 178
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 179
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 180
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m nine
+HYP: [31mEIGHT[0m nine
+SENTENCE 181
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: three
+HYP: three
+SENTENCE 182
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: three
+HYP: three
+SENTENCE 183
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 184
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: five
+HYP: five
+SENTENCE 185
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 186
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 187
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m nine
+HYP: [31mEIGHT[0m nine
+SENTENCE 188
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: four
+HYP: four
+SENTENCE 189
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 190
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: eight
+HYP: eight
+SENTENCE 191
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: four
+HYP: four
+SENTENCE 192
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: two
+HYP: two
+SENTENCE 193
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m**[0m oh
+HYP: [31mOH[0m oh
+SENTENCE 194
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+REF: six
+HYP: six
+SENTENCE 195
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 196
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: nine
+HYP: nine
+SENTENCE 197
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 198
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: seven
+HYP: seven
+SENTENCE 199
+Correct          = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
+REF: [31m*****[0m zero
+HYP: [31mEIGHT[0m zero
+SENTENCE 200
+Correct          = 100.0%    1   (     1)
+Errors           = 100.0%    1   (     1)
+Sentence count: 200
+WER:    35.500% (        71 /        200)
+WRR:    97.000% (       194 /        200)
+SER:    26.500% (        53 /        200)

@@ -28,11 +28,11 @@ HYP: [31mEIGHT[0m nine
 SENTENCE 6
 Correct          = 100.0%    1   (     1)
 Errors           = 100.0%    1   (     1)
-REF: [31m**[0m one
-HYP: [31mOH[0m one
+REF: one
+HYP: one
 SENTENCE 7
 Correct          = 100.0%    1   (     1)
-Errors           = 100.0%    1   (     1)
+Errors           =   0.0%    0   (     1)
 REF: one
 HYP: one
 SENTENCE 8
@@ -999,6 +999,6 @@ SENTENCE 200
 Correct          = 100.0%    1   (     1)
 Errors           = 100.0%    1   (     1)
 Sentence count: 200
-WER:    56.500% (       113 /        200)
+WER:    56.000% (       112 /        200)
 WRR:   100.000% (       200 /        200)
-SER:    45.000% (        90 /        200)
+SER:    44.500% (        89 /        200)

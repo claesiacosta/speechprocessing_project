@@ -52,7 +52,7 @@ def get_folders(corpus, SNR,speakers, seqs):
         for speaker in speakers:
             for seq in seqs:
                 folder = os.path.join(corpus, db, speaker, seq)
-            folders.append(folder)
+                folders.append(folder)
     return folders
 
 #
@@ -65,7 +65,7 @@ def decode_folders(rule, folders):
     for folder in folders:
         compile_ref(folder)
         decoded = decode_folder(my_decoder, folder) 
-    compile_pred(folder, rule, decoded)
+        compile_pred(folder, rule, decoded)
 
 def main(rule):
     SNR = ["SNR05db", "SNR15db", "SNR25db", "SNR35db"]
